@@ -24,6 +24,10 @@ export default defineConfig({
     video: 'retain-on-failure',
   },
 
+  reporter: [
+    ['html', { open: 'never' }],
+  ],
+
   projects: [
     {
       name: 'chromium',
